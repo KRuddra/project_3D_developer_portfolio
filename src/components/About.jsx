@@ -40,27 +40,49 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}><a>About Me.</a>&nbsp;
+          <a href="https://linkedin.com/in/ruddra-kantaria" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin fa-1x">&nbsp;</i>
+          </a>
+          <a href="https://github.com/KRuddra" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github fa-1x">&nbsp;</i>
+          </a>
+          <a href="https://github.com/KRuddra" target="_blank" rel="noopener noreferrer">
+          <i class="fa-regular fa-file">&nbsp;</i>
+          </a>
+        </h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hey! My name is Ruddra Kantaria, and I am a first year 
+        student at the University of Waterloo pursuing Computer Science. 
+        At the moment, I am working on full-stack development, as well as  
+        diving into the depths of machine learning, LLM development add Quantum Computing.
+        I am currently seeking Summer 2025 internships!
+        
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
+  {services.map((service, index) => (
+    <a 
+      key={service.title} 
+      href={service.link} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="service-card-link"
+    >
+      <ServiceCard index={index} {...service} />
+    </a>
+  ))}
+</div>
+
     </>
   );
 };
+
+
 
 export default SectionWrapper(About, "about");

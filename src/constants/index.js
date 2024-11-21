@@ -42,20 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Waterloo Student",
     icon: web,
+    link: "https://cs.uwaterloo.ca/",
   },
   {
-    title: "React Native Developer",
+    title: "Web App Developer",
     icon: mobile,
+    link: "https://github.com/KRuddra/Symbiote",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Quantum Computing Educator",
     icon: creator,
+    link: "https://www.quetzal.co.in/company/about-us",
   },
 ];
 
@@ -116,55 +115,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Lifeguard / Swim Instructor",
+    company_name: "City of Toronto",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June. 2020 - Aug. 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensured a safe aquatic environment for participants through supervision, accident prevention, rescue skills, public education and public relations",
+      "Ensures the safety and supervision of participants in the pool area",
+      "Ensures compliance with the Ontario Health Regulations and all relevant policy and procedures manuals",
+      "Ensures that the equipment is in place and operational and that the equipment is stored away after use",
+      "Taught childrens between the ages of 5-19 on basic swimming skills as well as advanced life saving techniques",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Quantum Software Researcher",
+    company_name: "University of Toronto",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec. 2022 – Jan. 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researched Shor’s Algorithm with students from the University of Toronto and its impacts on cybersecurity in the real world",
+      "Delved into the mathematical and physical proofs behind Shor’s Algorithm, understanding its future technological impact",
+      "Completed and published this research paper through the University of Toronto",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Student Researcher",
+    company_name: "University of Waterlo",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Aug. 2023 – Sept. 2023",
+    points: [
+      "Studied Quantum Computing and Quantum Mechanics in depth with professors and Ph.D. students",
+      "Created quantum circuits using IBM Qiskit to run different programs via quantum computing",
+      "Conducted labs in the RAC and IQC buildings on the different properties of Quantum Mechanics",
+    ],
+  },
+  {
+    title: "Co-Founder",
+    company_name: "Quetzal",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug. 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Co-founded a quantum education start-up that teaches quantum mechanics worldwide through courses",
+      "Led a team of 5+ people to create different quantum education courses, and manage and raise finances",
+      "Maintained and built a dynamic website for the start-up using Next.Js and the MERN stack",
+      "Taught and up-skilled over 2,500 students participate in them from more than 25 countries",
+      "Established partnerships with the University of Waterloo’s Institute of Quantum Computing and The Perimeter Institute",
     ],
   },
 ];
@@ -172,38 +171,47 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Playing sports is a large part of my life, I enjoy basketball, ultimate frisbee and competitve swimming. Recently have been enjoying Table Tennis as well!",
+    name: "Sports",
+    image: "https://rockytopsportsworld.com/wp-content/uploads/2019/07/sports-balls.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I enjoy programming on the side, especially making new projects that help me in my everyday life such as Symbiote that I am able to use for myself!",
+    name: "Programming",
+    image: "https://designli.co/hubfs/Imported_Blog_Media/chris-ried-ieic5Tq8YMk-unsplash.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "IntroSpectacle",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "IntroSpectacle is a real-time facial detection system that helps users remember names, conversations, and hobbies during social interactions.",
     tags: [
       {
-        name: "react",
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ai-integration",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/vinny-nguyen/IntroSpectacle",
+  },
+  {
+    name: "Symbiote",
+    description:
+      "Symbiote is a SaaS AI platform supporting image generation, AI-Chat bot integration and music generation, all with 5 different modes for all your AI-needs",
+    tags: [
+      {
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -215,50 +223,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/KRuddra/Symbiote",
   },
   {
-    name: "Trip Guide",
+    name: "NextImage AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "NextImage AI is a full-stack web application thatUtilizes the OpenAI API to generate images based on given or random prompts and features a community page where shared images are displayed from MongoDB",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/KRuddra/NextImage_AI",
   },
 ];
 

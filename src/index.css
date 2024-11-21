@@ -12,6 +12,14 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgba(145, 94, 255);
+}
 
 .hash-span {
   margin-top: -100px;
